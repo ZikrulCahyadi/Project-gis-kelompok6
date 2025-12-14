@@ -1,252 +1,229 @@
 [
   {
     "id": 1,
-    "nama": "Masjid Raya An-Nur",
-    "lat": 0.5071,
-    "lng": 101.4478,
-    "kategori": "Masjid Raya",
-    "kapasitas": 5000,
-    "alamat": "Jl. Hangtuah, Sumahilang, Pekanbaru",
-    "telp": "0761-23456",
+    "nama": "Masjid Al-Mujahadah",
+    "lat": 0.503086,
+    "lng": 101.446378,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 200,
+    "alamat": "Gang Al-Mujahadah, Marpoyan Damai",
+    "telp": "0761-11111",
     "jadwalSholat": {
-      "subuh": "05:15",
-      "dzuhur": "12:15",
+      "subuh": "04:40",
+      "dzuhur": "12:07",
       "ashar": "15:30",
-      "maghrib": "18:15",
-      "isya": "19:30"
+      "maghrib": "18:09",
+      "isya": "19:23"
     },
-    "fasilitas": ["Parkir Luas", "AC", "Sound System", "Perpustakaan", "TPQ", "Toilet Bersih"],
-    "tahunBerdiri": 1968,
-    "deskripsi": "Masjid terbesar dan termegah di Pekanbaru dengan arsitektur khas Melayu. Menjadi landmark kota dengan kubah emas yang megah.",
-    "foto": "https://images.unsplash.com/photo-1564769625905-50e93615e769?w=400",
-    "jadwalKegiatan": [
-      { "hari": "Senin", "kegiatan": "Kajian Fiqih", "waktu": "19:00 - 21:00" },
-      { "hari": "Rabu", "kegiatan": "Tahsin Al-Quran", "waktu": "08:00 - 10:00" },
-      { "hari": "Jumat", "kegiatan": "Sholat Jumat & Khutbah", "waktu": "12:00 - 13:00" },
-      { "hari": "Minggu", "kegiatan": "Pengajian Akbar", "waktu": "09:00 - 11:00" }
-    ]
+    "fasilitas": [
+      "Parkir",
+      "Toilet"
+    ],
+    "tahunBerdiri": 2000,
+    "deskripsi": "Masjid utama komplek perumahan yang menjadi pusat kegiatan ibadah warga sekitar.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/1.jpg"
   },
   {
     "id": 2,
-    "nama": "Masjid Agung Pekanbaru",
-    "lat": 0.5200,
-    "lng": 101.4600,
-    "kategori": "Masjid Raya",
-    "kapasitas": 3000,
-    "alamat": "Jl. Jenderal Sudirman, Pekanbaru",
-    "telp": "0761-34567",
+    "nama": "Masjid Rahmatullah 2",
+    "lat": 0.500969,
+    "lng": 101.445291,
+    "kategori": "Masjid Lingkungan",
+    "kapasitas": 120,
+    "alamat": "Jl. Garuda, Marpoyan Damai",
+    "telp": "0761-22222",
     "jadwalSholat": {
-      "subuh": "05:15",
-      "dzuhur": "12:15",
-      "ashar": "15:30",
-      "maghrib": "18:15",
-      "isya": "19:30"
+      "subuh": "04:40",
+      "dzuhur": "12:07",
+      "ashar": "15:31",
+      "maghrib": "18:10",
+      "isya": "19:23"
     },
-    "fasilitas": ["Parkir", "AC", "Kaligrafi", "Menara Tinggi", "Aula"],
-    "tahunBerdiri": 1980,
-    "deskripsi": "Landmark kota dengan menara kembar yang menjulang tinggi. Pusat kegiatan keagamaan dan kajian Islam.",
-    "foto": "https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?w=400",
-    "jadwalKegiatan": [
-      { "hari": "Selasa", "kegiatan": "Kajian Tafsir", "waktu": "19:30 - 21:00" },
-      { "hari": "Kamis", "kegiatan": "Dzikir Bersama", "waktu": "20:00 - 21:30" },
-      { "hari": "Jumat", "kegiatan": "Sholat Jumat & Khutbah", "waktu": "12:00 - 13:00" },
-      { "hari": "Sabtu", "kegiatan": "Kelas Bahasa Arab", "waktu": "09:00 - 11:00" }
-    ]
+    "fasilitas": [
+      "Parkir",
+      "Toilet"
+    ],
+    "tahunBerdiri": 1998,
+    "deskripsi": "Masjid kecil dengan kegiatan belajar mengaji untuk anak-anak sekitar.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/2.jpg"
   },
   {
     "id": 3,
-    "nama": "Masjid Al-Huda",
-    "lat": 0.4950,
-    "lng": 101.4350,
-    "kategori": "Masjid Kampus",
-    "kapasitas": 1500,
-    "alamat": "Kampus UIR, Marpoyan, Pekanbaru",
-    "telp": "0761-45678",
+    "nama": "Masjid Al-Falah",
+    "lat": 0.507936,
+    "lng": 101.435573,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 250,
+    "alamat": "Jl. Murai, Sukajadi",
+    "telp": "0761-33333",
     "jadwalSholat": {
-      "subuh": "05:15",
-      "dzuhur": "12:15",
-      "ashar": "15:30",
-      "maghrib": "18:15",
-      "isya": "19:30"
+      "subuh": "04:41",
+      "dzuhur": "12:07",
+      "ashar": "15:31",
+      "maghrib": "18:10",
+      "isya": "19:24"
     },
-    "fasilitas": ["Parkir", "Ruang Kajian", "Wifi", "Perpustakaan Mini", "Proyektor"],
-    "tahunBerdiri": 1990,
-    "deskripsi": "Pusat kegiatan keagamaan mahasiswa dengan kajian rutin dan diskusi keislaman modern.",
-    "foto": "https://images.unsplash.com/photo-1584291527905-0d912e37f927?w=400",
-    "jadwalKegiatan": [
-      { "hari": "Senin", "kegiatan": "Diskusi Ilmiah Islam", "waktu": "13:00 - 15:00" },
-      { "hari": "Rabu", "kegiatan": "Halaqah Mahasiswa", "waktu": "16:00 - 17:30" },
-      { "hari": "Jumat", "kegiatan": "Sholat Jumat & Khutbah", "waktu": "12:00 - 13:00" },
-      { "hari": "Sabtu", "kegiatan": "Mentoring Keislaman", "waktu": "08:00 - 10:00" }
-    ]
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "Sound System"
+    ],
+    "tahunBerdiri": 2005,
+    "deskripsi": "Masjid ramai dengan kegiatan mingguan dan pengajian warga.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/3.jpg"
   },
   {
     "id": 4,
-    "nama": "Masjid Ar-Rahman",
-    "lat": 0.5300,
-    "lng": 101.4200,
-    "kategori": "Masjid Jami",
-    "kapasitas": 800,
-    "alamat": "Jl. Pepaya, Simpang Tiga, Pekanbaru",
-    "telp": "0761-56789",
+    "nama": "Masjid Istiqomah",
+    "lat": 0.499144,
+    "lng": 101.445183,
+    "kategori": "Masjid Lingkungan",
+    "kapasitas": 130,
+    "alamat": "Jl. Garuda, Marpoyan Damai",
+    "telp": "0761-44444",
     "jadwalSholat": {
-      "subuh": "05:15",
-      "dzuhur": "12:15",
-      "ashar": "15:30",
-      "maghrib": "18:15",
-      "isya": "19:30"
+      "subuh": "04:40",
+      "dzuhur": "12:08",
+      "ashar": "15:32",
+      "maghrib": "18:10",
+      "isya": "19:24"
     },
-    "fasilitas": ["Parkir", "TPQ", "Kajian Rutin", "Tempat Wudhu"],
-    "tahunBerdiri": 1995,
-    "deskripsi": "Masjid komunitas dengan program TPQ dan pemberdayaan masyarakat sekitar.",
-    "foto": "https://images.unsplash.com/photo-1591608971362-f08b2a75731a?w=400",
-    "jadwalKegiatan": [
-      { "hari": "Senin-Jumat", "kegiatan": "TPQ Anak-anak", "waktu": "15:00 - 17:00" },
-      { "hari": "Rabu", "kegiatan": "Kajian Ibu-ibu", "waktu": "09:00 - 11:00" },
-      { "hari": "Jumat", "kegiatan": "Sholat Jumat & Khutbah", "waktu": "12:00 - 13:00" },
-      { "hari": "Minggu", "kegiatan": "Bakti Sosial", "waktu": "07:00 - 10:00" }
-    ]
+    "fasilitas": [
+      "Parkir",
+      "Toilet"
+    ],
+    "tahunBerdiri": 2002,
+    "deskripsi": "Masjid nyaman untuk warga sekitar dengan suasana tenang.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/4.jpg"
   },
   {
     "id": 5,
-    "nama": "Masjid Al-Ikhlas",
-    "lat": 0.4850,
-    "lng": 101.4650,
-    "kategori": "Masjid Jami",
-    "kapasitas": 600,
-    "alamat": "Jl. Kubang Raya, Tampan, Pekanbaru",
-    "telp": "0761-67890",
+    "nama": "Masjid Rahmatullah",
+    "lat": 0.489866,
+    "lng": 101.44452,
+    "kategori": "Masjid Lingkungan",
+    "kapasitas": 150,
+    "alamat": "Gang Borindo, Marpoyan Damai",
+    "telp": "0761-55555",
     "jadwalSholat": {
-      "subuh": "05:15",
-      "dzuhur": "12:15",
-      "ashar": "15:30",
-      "maghrib": "18:15",
-      "isya": "19:30"
+      "subuh": "04:40",
+      "dzuhur": "12:08",
+      "ashar": "15:32",
+      "maghrib": "18:11",
+      "isya": "19:25"
     },
-    "fasilitas": ["Parkir", "Mihrab Ukir", "Bedug Antik", "Serambi Luas"],
-    "tahunBerdiri": 1985,
-    "deskripsi": "Masjid bersejarah dengan bedug antik warisan leluhur dan arsitektur tradisional Melayu.",
-    "foto": "https://images.unsplash.com/photo-1542816417-0983c9c9ad53?w=400",
-    "jadwalKegiatan": [
-      { "hari": "Selasa", "kegiatan": "Kajian Kitab Kuning", "waktu": "19:00 - 21:00" },
-      { "hari": "Kamis", "kegiatan": "Yasinan", "waktu": "19:30 - 21:00" },
-      { "hari": "Jumat", "kegiatan": "Sholat Jumat & Khutbah", "waktu": "12:00 - 13:00" },
-      { "hari": "Minggu", "kegiatan": "Senam Sehat Jamaah", "waktu": "06:00 - 07:00" }
-    ]
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "Perpustakaan"
+    ],
+    "tahunBerdiri": 2001,
+    "deskripsi": "Masjid dengan kegiatan belajar mengajar anak-anak dan pengajian rutin.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/5.jpg"
   },
   {
     "id": 6,
-    "nama": "Masjid Nurul Iman",
-    "lat": 0.5100,
-    "lng": 101.4550,
-    "kategori": "Masjid Jami",
-    "kapasitas": 1000,
-    "alamat": "Jl. Soekarno Hatta, Tuah Karya, Pekanbaru",
-    "telp": "0761-78901",
+    "nama": "Masjid Al Munawarrah",
+    "lat": 0.495133,
+    "lng": 101.445416,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 180,
+    "alamat": "Jl. Merpati, Marpoyan Damai",
+    "telp": "0761-66666",
     "jadwalSholat": {
-      "subuh": "05:15",
-      "dzuhur": "12:15",
-      "ashar": "15:30",
-      "maghrib": "18:15",
-      "isya": "19:30"
+      "subuh": "04:41",
+      "dzuhur": "12:06",
+      "ashar": "15:31",
+      "maghrib": "18:06",
+      "isya": "19:21"
     },
-    "fasilitas": ["Parkir Luas", "AC", "Aula", "Toilet Bersih", "Kantin"],
-    "tahunBerdiri": 2000,
-    "deskripsi": "Masjid modern dengan fasilitas lengkap untuk berbagai kegiatan keagamaan dan sosial.",
-    "foto": "https://images.unsplash.com/photo-1590073844006-33379778ae09?w=400",
-    "jadwalKegiatan": [
-      { "hari": "Senin", "kegiatan": "Kelas Tahfidz", "waktu": "16:00 - 18:00" },
-      { "hari": "Rabu", "kegiatan": "Kajian Hadits", "waktu": "19:30 - 21:00" },
-      { "hari": "Jumat", "kegiatan": "Sholat Jumat & Khutbah", "waktu": "12:00 - 13:00" },
-      { "hari": "Sabtu", "kegiatan": "Bazar Amal", "waktu": "08:00 - 12:00" }
-    ]
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "TPQ"
+    ],
+    "tahunBerdiri": 2003,
+    "deskripsi": "Masjid dengan kegiatan belajar mengaji dan pengajian rutin setiap minggu.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/6.jpg"
   },
   {
     "id": 7,
-    "nama": "Masjid At-Taqwa",
-    "lat": 0.4750,
-    "lng": 101.4300,
-    "kategori": "Masjid Jami",
-    "kapasitas": 500,
-    "alamat": "Jl. Riau, Pekanbaru Kota",
-    "telp": "0761-89012",
+    "nama": "Masjid Miftahul Jannah",
+    "lat": 0.487757,
+    "lng": 101.4382,
+    "kategori": "Masjid Lingkungan",
+    "kapasitas": 120,
+    "alamat": "Gang Miftahul Jannah, Marpoyan Damai",
+    "telp": "0761-77777",
     "jadwalSholat": {
-      "subuh": "05:15",
-      "dzuhur": "12:15",
+      "subuh": "04:40",
+      "dzuhur": "12:07",
       "ashar": "15:30",
-      "maghrib": "18:15",
-      "isya": "19:30"
+      "maghrib": "18:09",
+      "isya": "19:23"
     },
-    "fasilitas": ["Parkir Terbatas", "Kajian Ahad", "TPQ", "Perpustakaan"],
-    "tahunBerdiri": 1975,
-    "deskripsi": "Masjid di pusat kota dengan jamaah loyal dan program mengaji untuk semua usia.",
-    "foto": "https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?w=400",
-    "jadwalKegiatan": [
-      { "hari": "Senin-Sabtu", "kegiatan": "TPQ Sore", "waktu": "15:30 - 17:00" },
-      { "hari": "Kamis", "kegiatan": "Pengajian Bapak-bapak", "waktu": "20:00 - 21:30" },
-      { "hari": "Jumat", "kegiatan": "Sholat Jumat & Khutbah", "waktu": "12:00 - 13:00" },
-      { "hari": "Ahad", "kegiatan": "Kajian Ahad Pagi", "waktu": "08:00 - 10:00" }
-    ]
+    "fasilitas": [
+      "Parkir",
+      "Toilet"
+    ],
+    "tahunBerdiri": 1999,
+    "deskripsi": "Masjid sederhana di gang untuk warga setempat.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/7.jpg"
   },
   {
     "id": 8,
-    "nama": "Masjid Baitul Makmur",
-    "lat": 0.5400,
-    "lng": 101.4750,
-    "kategori": "Masjid Jami",
-    "kapasitas": 700,
-    "alamat": "Jl. Garuda Sakti, Panam, Pekanbaru",
-    "telp": "0761-90123",
+    "nama": "Masjid Fatimah",
+    "lat": 0.484461,
+    "lng": 101.433064,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 140,
+    "alamat": "Jl. Subayang, Marpoyan Damai",
+    "telp": "0761-88888",
     "jadwalSholat": {
-      "subuh": "05:15",
-      "dzuhur": "12:15",
+      "subuh": "04:41",
+      "dzuhur": "12:05",
       "ashar": "15:30",
-      "maghrib": "18:15",
-      "isya": "19:30"
+      "maghrib": "18:11",
+      "isya": "19:25"
     },
-    "fasilitas": ["Parkir", "Toilet", "Tempat Wudhu Luas", "Mihrab Indah", "Sound System"],
-    "tahunBerdiri": 2005,
-    "deskripsi": "Masjid strategis dekat kampus dengan jamaah mahasiswa yang aktif dalam kegiatan dakwah.",
-    "foto": "https://images.unsplash.com/photo-1564769625905-50e93615e769?w=400",
-    "jadwalKegiatan": [
-      { "hari": "Selasa", "kegiatan": "Kajian Pemuda", "waktu": "19:30 - 21:00" },
-      { "hari": "Kamis", "kegiatan": "Tahsin Quran", "waktu": "16:00 - 17:30" },
-      { "hari": "Jumat", "kegiatan": "Sholat Jumat & Khutbah", "waktu": "12:00 - 13:00" },
-      { "hari": "Minggu", "kegiatan": "Futsal Jamaah", "waktu": "07:00 - 09:00" }
-    ]
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "AC"
+    ],
+    "tahunBerdiri": 2004,
+    "deskripsi": "Masjid kecil dengan kegiatan rutin pengajian harian.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/8.jpg"
   },
   {
     "id": 9,
-    "nama": "Masjid Al-Falah",
-    "lat": 0.4650,
-    "lng": 101.4500,
-    "kategori": "Masjid Jami",
-    "kapasitas": 450,
-    "alamat": "Jl. Ahmad Yani, Pekanbaru",
-    "telp": "0761-12345",
+    "nama": "Masjid Al-Ikhlas",
+    "lat": 0.487549,
+    "lng": 101.435877,
+    "kategori": "Masjid Lingkungan",
+    "kapasitas": 150,
+    "alamat": "Jl. Paus, Marpoyan Damai",
+    "telp": "0761-99999",
     "jadwalSholat": {
-      "subuh": "05:15",
-      "dzuhur": "12:15",
-      "ashar": "15:30",
-      "maghrib": "18:15",
-      "isya": "19:30"
+      "subuh": "04:41",
+      "dzuhur": "12:07",
+      "ashar": "15:31",
+      "maghrib": "18:10",
+      "isya": "19:24"
     },
-    "fasilitas": ["Parkir", "AC", "Tempat Wudhu", "TPQ Anak"],
-    "tahunBerdiri": 1992,
-    "deskripsi": "Masjid ramah anak dengan program pendidikan Al-Quran yang terstruktur.",
-    "foto": "https://images.unsplash.com/photo-1591608971362-f08b2a75731a?w=400",
-    "jadwalKegiatan": [
-      { "hari": "Senin-Jumat", "kegiatan": "PAUD Islami", "waktu": "08:00 - 11:00" },
-      { "hari": "Rabu", "kegiatan": "Kajian Parenting Islami", "waktu": "09:30 - 11:00" },
-      { "hari": "Jumat", "kegiatan": "Sholat Jumat & Khutbah", "waktu": "12:00 - 13:00" },
-      { "hari": "Sabtu", "kegiatan": "Lomba Hafalan Anak", "waktu": "09:00 - 12:00" }
-    ]
+    "fasilitas": [
+      "Parkir",
+      "Toilet"
+    ],
+    "tahunBerdiri": 2002,
+    "deskripsi": "Masjid yang ramai saat bulan Ramadan dengan berbagai kegiatan ibadah.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/9.jpg"
   },
   {
     "id": 10,
     "nama": "Masjid Jami' Al-Muttaqin",
-    "lat": 0.5500,
-    "lng": 101.4400,
+    "lat": 0.55,
+    "lng": 101.44,
     "kategori": "Masjid Jami",
     "kapasitas": 850,
     "alamat": "Jl. Kulim, Tenayan Raya, Pekanbaru",
@@ -258,15 +235,538 @@
       "maghrib": "18:15",
       "isya": "19:30"
     },
-    "fasilitas": ["Parkir Luas", "Taman", "Toilet Modern", "Ruang Serbaguna"],
+    "fasilitas": [
+      "Parkir Luas",
+      "Taman",
+      "Toilet Modern",
+      "Ruang Serbaguna"
+    ],
     "tahunBerdiri": 2010,
     "deskripsi": "Masjid dengan taman yang asri dan program sosial yang aktif melayani masyarakat.",
-    "foto": "https://images.unsplash.com/photo-1584291527905-0d912e37f927?w=400",
-    "jadwalKegiatan": [
-      { "hari": "Senin", "kegiatan": "Posyandu Lansia", "waktu": "08:00 - 11:00" },
-      { "hari": "Rabu", "kegiatan": "Kajian Tasawuf", "waktu": "19:30 - 21:00" },
-      { "hari": "Jumat", "kegiatan": "Sholat Jumat & Khutbah", "waktu": "12:00 - 13:00" },
-      { "hari": "Sabtu", "kegiatan": "Berkebun Bersama", "waktu": "07:00 - 09:00" }
-    ]
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/10.jpg"
+  },
+  {
+    "id": 11,
+    "nama": "Masjid Nurul Islam",
+    "lat": 0.496467,
+    "lng": 101.461984,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 220,
+    "alamat": "Jalan Kakap, Tangkerang Selatan, Bukit Raya",
+    "telp": "0761-12121",
+    "jadwalSholat": {
+      "subuh": "04:41",
+      "dzuhur": "12:07",
+      "ashar": "15:32",
+      "maghrib": "18:11",
+      "isya": "19:25"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "TPQ",
+      "AC"
+    ],
+    "tahunBerdiri": 2005,
+    "deskripsi": "Masjid aktif dengan kegiatan pengajian harian dan mingguan.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/11.jpg"
+  },
+  {
+    "id": 12,
+    "nama": "Masjid Ibadurrahman",
+    "lat": 0.477148,
+    "lng": 101.452968,
+    "kategori": "Masjid Lingkungan",
+    "kapasitas": 140,
+    "alamat": "Jalan Arifin Ahmad, Marpoyan Damai",
+    "telp": "0761-13131",
+    "jadwalSholat": {
+      "subuh": "04:40",
+      "dzuhur": "12:07",
+      "ashar": "15:30",
+      "maghrib": "18:09",
+      "isya": "19:23"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet"
+    ],
+    "tahunBerdiri": 2000,
+    "deskripsi": "Masjid sederhana di kawasan padat penduduk, rutin pengajian malam.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/12.jpg"
+  },
+  {
+    "id": 13,
+    "nama": "Masjid Al-Muhajirin",
+    "lat": 0.498099,
+    "lng": 101.464763,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 200,
+    "alamat": "Gang Mesjid, Bukit Raya",
+    "telp": "0761-14141",
+    "jadwalSholat": {
+      "subuh": "04:42",
+      "dzuhur": "12:08",
+      "ashar": "15:32",
+      "maghrib": "18:12",
+      "isya": "19:26"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "AC"
+    ],
+    "tahunBerdiri": 2006,
+    "deskripsi": "Masjid ramai dengan kegiatan kajian mingguan dan pengajian remaja.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/13.jpg"
+  },
+  {
+    "id": 14,
+    "nama": "Masjid Shiratul Jannah",
+    "lat": 0.504259,
+    "lng": 101.456914,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 180,
+    "alamat": "Gang Pandan III, Bukit Raya",
+    "telp": "0761-15151",
+    "jadwalSholat": {
+      "subuh": "04:42",
+      "dzuhur": "12:08",
+      "ashar": "15:32",
+      "maghrib": "18:11",
+      "isya": "19:26"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "TPQ"
+    ],
+    "tahunBerdiri": 2007,
+    "deskripsi": "Masjid dengan kegiatan pendidikan anak dan pengajian rutin.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/14.jpg"
+  },
+  {
+    "id": 15,
+    "nama": "Masjid Nurul Jannah",
+    "lat": 0.501272,
+    "lng": 101.455981,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 200,
+    "alamat": "Jalan Jati, Bukit Raya",
+    "telp": "0761-16161",
+    "jadwalSholat": {
+      "subuh": "04:41",
+      "dzuhur": "12:07",
+      "ashar": "15:31",
+      "maghrib": "18:10",
+      "isya": "19:24"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "AC"
+    ],
+    "tahunBerdiri": 2008,
+    "deskripsi": "Masjid aktif dengan pengajian rutin dan kegiatan sosial warga.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/15.jpg"
+  },
+  {
+    "id": 16,
+    "nama": "Masjid Ar-Rahim",
+    "lat": 0.499619,
+    "lng": 101.458099,
+    "kategori": "Masjid Lingkungan",
+    "kapasitas": 150,
+    "alamat": "Jalan Harapan Raya, Bukit Raya",
+    "telp": "0761-17171",
+    "jadwalSholat": {
+      "subuh": "04:41",
+      "dzuhur": "12:07",
+      "ashar": "15:31",
+      "maghrib": "18:10",
+      "isya": "19:24"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet"
+    ],
+    "tahunBerdiri": 2001,
+    "deskripsi": "Masjid nyaman di tengah permukiman dengan pengajian mingguan.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/16.jpg"
+  },
+  {
+    "id": 17,
+    "nama": "Masjid Nurul Hijrah",
+    "lat": 0.501325,
+    "lng": 101.458631,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 180,
+    "alamat": "Jalan Gelugur, Bukit Raya",
+    "telp": "0761-18181",
+    "jadwalSholat": {
+      "subuh": "04:41",
+      "dzuhur": "12:07",
+      "ashar": "15:31",
+      "maghrib": "18:10",
+      "isya": "19:24"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "TPQ"
+    ],
+    "tahunBerdiri": 2004,
+    "deskripsi": "Masjid aktif dengan pengajian harian dan kegiatan anak.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/17.jpg"
+  },
+  {
+    "id": 18,
+    "nama": "Masjid Al Muhsinin",
+    "lat": 0.502527,
+    "lng": 101.46073,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 200,
+    "alamat": "Jalan Tentram, Bukit Raya",
+    "telp": "0761-19191",
+    "jadwalSholat": {
+      "subuh": "04:42",
+      "dzuhur": "12:08",
+      "ashar": "15:32",
+      "maghrib": "18:11",
+      "isya": "19:25"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "AC"
+    ],
+    "tahunBerdiri": 2005,
+    "deskripsi": "Masjid dengan kegiatan pengajian remaja dan anak-anak.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/18.jpg"
+  },
+  {
+    "id": 19,
+    "nama": "Masjid Riyadhul Jannah",
+    "lat": 0.509032,
+    "lng": 101.464757,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 220,
+    "alamat": "Jalan Kayu Putih, Bukit Raya",
+    "telp": "0761-20202",
+    "jadwalSholat": {
+      "subuh": "04:42",
+      "dzuhur": "12:08",
+      "ashar": "15:32",
+      "maghrib": "18:11",
+      "isya": "19:25"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "TPQ",
+      "AC"
+    ],
+    "tahunBerdiri": 2006,
+    "deskripsi": "Masjid aktif dengan pengajian rutin dan kegiatan sosial warga.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/19.jpg"
+  },
+  {
+    "id": 20,
+    "nama": "Masjid Darul Hikmah",
+    "lat": 0.506075,
+    "lng": 101.460292,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 200,
+    "alamat": "Jalan Rukun, Bukit Raya",
+    "telp": "0761-21212",
+    "jadwalSholat": {
+      "subuh": "04:42",
+      "dzuhur": "12:08",
+      "ashar": "15:32",
+      "maghrib": "18:11",
+      "isya": "19:25"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "Sound System"
+    ],
+    "tahunBerdiri": 2007,
+    "deskripsi": "Masjid dengan berbagai kegiatan pendidikan dan pengajian remaja.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/20.jpg"
+  },
+  {
+    "id": 21,
+    "nama": "Masjid At-Taufiq",
+    "lat": 0.509165,
+    "lng": 101.457533,
+    "kategori": "Masjid Lingkungan",
+    "kapasitas": 150,
+    "alamat": "Jalan Letkol Hasan Basri, Sail",
+    "telp": "0761-22222",
+    "jadwalSholat": {
+      "subuh": "04:41",
+      "dzuhur": "12:07",
+      "ashar": "15:31",
+      "maghrib": "18:10",
+      "isya": "19:24"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet"
+    ],
+    "tahunBerdiri": 2001,
+    "deskripsi": "Masjid sederhana di kawasan padat penduduk, aktif pada malam hari.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/21.jpg"
+  },
+  {
+    "id": 22,
+    "nama": "Masjid Amal Jariyah",
+    "lat": 0.522696,
+    "lng": 101.45378,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 200,
+    "alamat": "Jalan Diponegoro III, Sail",
+    "telp": "0761-23232",
+    "jadwalSholat": {
+      "subuh": "04:42",
+      "dzuhur": "12:08",
+      "ashar": "15:32",
+      "maghrib": "18:11",
+      "isya": "19:25"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "AC"
+    ],
+    "tahunBerdiri": 2005,
+    "deskripsi": "Masjid aktif dengan pengajian harian dan kegiatan sosial warga.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/22.jpg"
+  },
+  {
+    "id": 23,
+    "nama": "Masjid Al-Mustaqim",
+    "lat": 0.518969,
+    "lng": 101.452337,
+    "kategori": "Masjid Lingkungan",
+    "kapasitas": 150,
+    "alamat": "Gang Al-Mustaqim, Sail",
+    "telp": "0761-24242",
+    "jadwalSholat": {
+      "subuh": "04:41",
+      "dzuhur": "12:07",
+      "ashar": "15:31",
+      "maghrib": "18:10",
+      "isya": "19:24"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet"
+    ],
+    "tahunBerdiri": 2003,
+    "deskripsi": "Masjid nyaman di tengah permukiman dengan pengajian mingguan.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/23.jpg"
+  },
+  {
+    "id": 24,
+    "nama": "Masjid Al-Hidayah",
+    "lat": 0.520835,
+    "lng": 101.455664,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 200,
+    "alamat": "Jalan Pelajar, Sail",
+    "telp": "0761-25252",
+    "jadwalSholat": {
+      "subuh": "04:42",
+      "dzuhur": "12:08",
+      "ashar": "15:32",
+      "maghrib": "18:11",
+      "isya": "19:25"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "AC",
+      "TPQ"
+    ],
+    "tahunBerdiri": 2006,
+    "deskripsi": "Masjid dengan kegiatan pengajian anak-anak dan remaja.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/24.jpg"
+  },
+  {
+    "id": 25,
+    "nama": "Masjid Al-Mutmainah",
+    "lat": 0.524321,
+    "lng": 101.456987,
+    "kategori": "Masjid Lingkungan",
+    "kapasitas": 150,
+    "alamat": "Jalan Kenanga, Sail",
+    "telp": "0761-26262",
+    "jadwalSholat": {
+      "subuh": "04:41",
+      "dzuhur": "12:07",
+      "ashar": "15:31",
+      "maghrib": "18:10",
+      "isya": "19:24"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet"
+    ],
+    "tahunBerdiri": 2002,
+    "deskripsi": "Masjid sederhana untuk warga sekitar dengan pengajian malam.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/25.jpg"
+  },
+  {
+    "id": 26,
+    "nama": "Masjid Al-Mustaqim II",
+    "lat": 0.526118,
+    "lng": 101.459344,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 200,
+    "alamat": "Jalan Dahlia, Sail",
+    "telp": "0761-27272",
+    "jadwalSholat": {
+      "subuh": "04:42",
+      "dzuhur": "12:08",
+      "ashar": "15:32",
+      "maghrib": "18:11",
+      "isya": "19:25"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "AC"
+    ],
+    "tahunBerdiri": 2007,
+    "deskripsi": "Masjid aktif dengan pengajian rutin dan kegiatan sosial warga.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/26.jpg"
+  },
+  {
+    "id": 27,
+    "nama": "Masjid Al-Amin",
+    "lat": 0.529221,
+    "lng": 101.460991,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 180,
+    "alamat": "Jalan Melati, Sail",
+    "telp": "0761-28282",
+    "jadwalSholat": {
+      "subuh": "04:42",
+      "dzuhur": "12:08",
+      "ashar": "15:32",
+      "maghrib": "18:11",
+      "isya": "19:25"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "TPQ"
+    ],
+    "tahunBerdiri": 2005,
+    "deskripsi": "Masjid dengan kegiatan pendidikan anak-anak dan pengajian rutin.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/27.jpg"
+  },
+  {
+    "id": 28,
+    "nama": "Masjid Al-Firdaus",
+    "lat": 0.531057,
+    "lng": 101.462812,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 200,
+    "alamat": "Jalan Kenari, Sail",
+    "telp": "0761-29292",
+    "jadwalSholat": {
+      "subuh": "04:42",
+      "dzuhur": "12:08",
+      "ashar": "15:32",
+      "maghrib": "18:11",
+      "isya": "19:25"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "AC"
+    ],
+    "tahunBerdiri": 2008,
+    "deskripsi": "Masjid aktif dengan pengajian harian dan kegiatan sosial.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/28.jpg"
+  },
+  {
+    "id": 29,
+    "nama": "Masjid Al-Hikmah",
+    "lat": 0.533234,
+    "lng": 101.464333,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 220,
+    "alamat": "Jalan Mawar, Sail",
+    "telp": "0761-30303",
+    "jadwalSholat": {
+      "subuh": "04:42",
+      "dzuhur": "12:08",
+      "ashar": "15:32",
+      "maghrib": "18:11",
+      "isya": "19:25"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "TPQ",
+      "AC"
+    ],
+    "tahunBerdiri": 2009,
+    "deskripsi": "Masjid dengan kegiatan pengajian dan sosial aktif.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/29.jpg"
+  },
+  {
+    "id": 30,
+    "nama": "Masjid Al-Quran",
+    "lat": 0.535122,
+    "lng": 101.466111,
+    "kategori": "Masjid Lingkungan",
+    "kapasitas": 150,
+    "alamat": "Jalan Cempaka, Sail",
+    "telp": "0761-31313",
+    "jadwalSholat": {
+      "subuh": "04:41",
+      "dzuhur": "12:07",
+      "ashar": "15:31",
+      "maghrib": "18:10",
+      "isya": "19:24"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet"
+    ],
+    "tahunBerdiri": 2003,
+    "deskripsi": "Masjid dengan pengajian rutin dan kegiatan belajar mengaji anak-anak.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/30.jpg"
+  },
+  {
+    "id": 31,
+    "nama": "Masjid Al-Furqan",
+    "lat": 0.537045,
+    "lng": 101.467752,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 200,
+    "alamat": "Jalan Anggrek, Sail",
+    "telp": "0761-32323",
+    "jadwalSholat": {
+      "subuh": "04:42",
+      "dzuhur": "12:08",
+      "ashar": "15:32",
+      "maghrib": "18:11",
+      "isya": "19:25"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "AC",
+      "TPQ"
+    ],
+    "tahunBerdiri": 2010,
+    "deskripsi": "Masjid aktif dengan pengajian remaja dan kegiatan sosial warga sekitar.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/31.jpg"
   }
 ]

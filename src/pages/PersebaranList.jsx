@@ -7,18 +7,28 @@ export default function PersebaranList() {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedKategori, setSelectedKategori] = useState(null);
 
+  // Filter kategori unik
   const kategoriList = useMemo(() => {
     return [...new Set(data.map((d) => d.kategori))];
   }, []);
 
+  // Filter data berdasarkan search dan kategori
   const filteredData = useMemo(() => {
     return data.filter((masjid) => {
+      // Abaikan masjid dengan koordinat 0,0
+      if (masjid.lat === 0 && masjid.lng === 0) return false;
+
       const matchSearch =
         masjid.nama.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        masjid.alamat.toLowerCase().includes(searchQuery.toLowerCase());
+        masjid.alamat.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        masjid.fasilitas.some((f) =>
+          f.toLowerCase().includes(searchQuery.toLowerCase())
+        );
+
       const matchKategori = selectedKategori
         ? masjid.kategori === selectedKategori
         : true;
+
       return matchSearch && matchKategori;
     });
   }, [searchQuery, selectedKategori]);
@@ -32,7 +42,10 @@ export default function PersebaranList() {
             <h1 className="text-3xl md:text-4xl font-heading font-bold text-primary-foreground mb-4 animate-fade-up">
               Daftar Masjid
             </h1>
-            <p className="text-primary-foreground/80 font-body max-w-xl mx-auto animate-fade-up" style={{ animationDelay: "100ms" }}>
+            <p
+              className="text-primary-foreground/80 font-body max-w-xl mx-auto animate-fade-up"
+              style={{ animationDelay: "100ms" }}
+            >
               Temukan informasi lengkap tentang {data.length} masjid di Kota Pekanbaru
             </p>
           </div>
@@ -48,7 +61,7 @@ export default function PersebaranList() {
               <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
               <input
                 type="text"
-                placeholder="Cari nama atau alamat masjid..."
+                placeholder="Cari nama, alamat, atau fasilitas masjid..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full pl-12 pr-4 py-3 bg-card border border-border font-body rounded-xl focus:outline-none focus:ring-2 focus:ring-primary"
@@ -100,7 +113,12 @@ export default function PersebaranList() {
           {filteredData.length > 0 ? (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {filteredData.map((masjid, index) => (
-                <MosqueCard key={masjid.id} masjid={masjid} index={index} />
+                <MosqueCard
+                  key={masjid.id}
+                  masjid={masjid}
+                  index={index}
+                  showSummary={true} // menampilkan ringkasan jadwal
+                />
               ))}
             </div>
           ) : (
@@ -108,12 +126,8 @@ export default function PersebaranList() {
               <div className="w-20 h-20 bg-secondary rounded-full flex items-center justify-center mx-auto mb-4">
                 <Search className="w-10 h-10 text-muted-foreground" />
               </div>
-              <h3 className="text-xl font-heading font-semibold text-foreground mb-2">
-                Tidak ada hasil
-              </h3>
-              <p className="text-muted-foreground font-body">
-                Coba ubah kata kunci pencarian atau filter kategori
-              </p>
+              <h3 className="font-heading text-lg text-foreground mb-2">Data masjid tidak ditemukan</h3>
+              <p className="text-muted-foreground">Coba ubah kata kunci atau kategori pencarian.</p>
             </div>
           )}
         </div>
