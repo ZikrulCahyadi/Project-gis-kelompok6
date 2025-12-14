@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "nama": "Masjid Raya An-Nur",
+    "lat": 0.5071,
+    "lng": 101.4478,
+    "kategori": "Masjid Raya",
+    "kapasitas": 5000,
+    "alamat": "Jl. Hangtuah, Sumahilang, Pekanbaru",
+    "telp": "0761-23456",
+    "jadwalSholat": {
+      "subuh": "05:15",
+      "dzuhur": "12:15",
+      "ashar": "15:30",
+      "maghrib": "18:15",
+      "isya": "19:30"
+    },
+    "fasilitas": ["Parkir Luas", "AC", "Sound System", "Perpustakaan", "TPQ", "Toilet Bersih"],
+    "tahunBerdiri": 1968,
+    "deskripsi": "Masjid terbesar dan termegah di Pekanbaru dengan arsitektur khas Melayu. Menjadi landmark kota dengan kubah emas yang megah.",
+    "foto": "https://images.unsplash.com/photo-1564769625905-50e93615e769?w=400",
+    "jadwalKegiatan": [
+      { "hari": "Senin", "kegiatan": "Kajian Fiqih", "waktu": "19:00 - 21:00" },
+      { "hari": "Rabu", "kegiatan": "Tahsin Al-Quran", "waktu": "08:00 - 10:00" },
+      { "hari": "Jumat", "kegiatan": "Sholat Jumat & Khutbah", "waktu": "12:00 - 13:00" },
+      { "hari": "Minggu", "kegiatan": "Pengajian Akbar", "waktu": "09:00 - 11:00" }
+    ]
+  },
+  {
+    "id": 2,
+    "nama": "Masjid Agung Pekanbaru",
+    "lat": 0.5200,
+    "lng": 101.4600,
+    "kategori": "Masjid Raya",
+    "kapasitas": 3000,
+    "alamat": "Jl. Jenderal Sudirman, Pekanbaru",
+    "telp": "0761-34567",
+    "jadwalSholat": {
+      "subuh": "05:15",
+      "dzuhur": "12:15",
+      "ashar": "15:30",
+      "maghrib": "18:15",
+      "isya": "19:30"
+    },
+    "fasilitas": ["Parkir", "AC", "Kaligrafi", "Menara Tinggi", "Aula"],
+    "tahunBerdiri": 1980,
+    "deskripsi": "Landmark kota dengan menara kembar yang menjulang tinggi. Pusat kegiatan keagamaan dan kajian Islam.",
+    "foto": "https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?w=400",
+    "jadwalKegiatan": [
+      { "hari": "Selasa", "kegiatan": "Kajian Tafsir", "waktu": "19:30 - 21:00" },
+      { "hari": "Kamis", "kegiatan": "Dzikir Bersama", "waktu": "20:00 - 21:30" },
+      { "hari": "Jumat", "kegiatan": "Sholat Jumat & Khutbah", "waktu": "12:00 - 13:00" },
+      { "hari": "Sabtu", "kegiatan": "Kelas Bahasa Arab", "waktu": "09:00 - 11:00" }
+    ]
+  },
+  {
+    "id": 3,
+    "nama": "Masjid Al-Huda",
+    "lat": 0.4950,
+    "lng": 101.4350,
+    "kategori": "Masjid Kampus",
+    "kapasitas": 1500,
+    "alamat": "Kampus UIR, Marpoyan, Pekanbaru",
+    "telp": "0761-45678",
+    "jadwalSholat": {
+      "subuh": "05:15",
+      "dzuhur": "12:15",
+      "ashar": "15:30",
+      "maghrib": "18:15",
+      "isya": "19:30"
+    },
+    "fasilitas": ["Parkir", "Ruang Kajian", "Wifi", "Perpustakaan Mini", "Proyektor"],
+    "tahunBerdiri": 1990,
+    "deskripsi": "Pusat kegiatan keagamaan mahasiswa dengan kajian rutin dan diskusi keislaman modern.",
+    "foto": "https://images.unsplash.com/photo-1584291527905-0d912e37f927?w=400",
+    "jadwalKegiatan": [
+      { "hari": "Senin", "kegiatan": "Diskusi Ilmiah Islam", "waktu": "13:00 - 15:00" },
+      { "hari": "Rabu", "kegiatan": "Halaqah Mahasiswa", "waktu": "16:00 - 17:30" },
+      { "hari": "Jumat", "kegiatan": "Sholat Jumat & Khutbah", "waktu": "12:00 - 13:00" },
+      { "hari": "Sabtu", "kegiatan": "Mentoring Keislaman", "waktu": "08:00 - 10:00" }
+    ]
+  },
+  {
+    "id": 4,
+    "nama": "Masjid Ar-Rahman",
+    "lat": 0.5300,
+    "lng": 101.4200,
+    "kategori": "Masjid Jami",
+    "kapasitas": 800,
+    "alamat": "Jl. Pepaya, Simpang Tiga, Pekanbaru",
+    "telp": "0761-56789",
+    "jadwalSholat": {
+      "subuh": "05:15",
+      "dzuhur": "12:15",
+      "ashar": "15:30",
+      "maghrib": "18:15",
+      "isya": "19:30"
+    },
+    "fasilitas": ["Parkir", "TPQ", "Kajian Rutin", "Tempat Wudhu"],
+    "tahunBerdiri": 1995,
+    "deskripsi": "Masjid komunitas dengan program TPQ dan pemberdayaan masyarakat sekitar.",
+    "foto": "https://images.unsplash.com/photo-1591608971362-f08b2a75731a?w=400",
+    "jadwalKegiatan": [
+      { "hari": "Senin-Jumat", "kegiatan": "TPQ Anak-anak", "waktu": "15:00 - 17:00" },
+      { "hari": "Rabu", "kegiatan": "Kajian Ibu-ibu", "waktu": "09:00 - 11:00" },
+      { "hari": "Jumat", "kegiatan": "Sholat Jumat & Khutbah", "waktu": "12:00 - 13:00" },
+      { "hari": "Minggu", "kegiatan": "Bakti Sosial", "waktu": "07:00 - 10:00" }
+    ]
+  },
+  {
+    "id": 5,
+    "nama": "Masjid Al-Ikhlas",
+    "lat": 0.4850,
+    "lng": 101.4650,
+    "kategori": "Masjid Jami",
+    "kapasitas": 600,
+    "alamat": "Jl. Kubang Raya, Tampan, Pekanbaru",
+    "telp": "0761-67890",
+    "jadwalSholat": {
+      "subuh": "05:15",
+      "dzuhur": "12:15",
+      "ashar": "15:30",
+      "maghrib": "18:15",
+      "isya": "19:30"
+    },
+    "fasilitas": ["Parkir", "Mihrab Ukir", "Bedug Antik", "Serambi Luas"],
+    "tahunBerdiri": 1985,
+    "deskripsi": "Masjid bersejarah dengan bedug antik warisan leluhur dan arsitektur tradisional Melayu.",
+    "foto": "https://images.unsplash.com/photo-1542816417-0983c9c9ad53?w=400",
+    "jadwalKegiatan": [
+      { "hari": "Selasa", "kegiatan": "Kajian Kitab Kuning", "waktu": "19:00 - 21:00" },
+      { "hari": "Kamis", "kegiatan": "Yasinan", "waktu": "19:30 - 21:00" },
+      { "hari": "Jumat", "kegiatan": "Sholat Jumat & Khutbah", "waktu": "12:00 - 13:00" },
+      { "hari": "Minggu", "kegiatan": "Senam Sehat Jamaah", "waktu": "06:00 - 07:00" }
+    ]
+  },
+  {
+    "id": 6,
+    "nama": "Masjid Nurul Iman",
+    "lat": 0.5100,
+    "lng": 101.4550,
+    "kategori": "Masjid Jami",
+    "kapasitas": 1000,
+    "alamat": "Jl. Soekarno Hatta, Tuah Karya, Pekanbaru",
+    "telp": "0761-78901",
+    "jadwalSholat": {
+      "subuh": "05:15",
+      "dzuhur": "12:15",
+      "ashar": "15:30",
+      "maghrib": "18:15",
+      "isya": "19:30"
+    },
+    "fasilitas": ["Parkir Luas", "AC", "Aula", "Toilet Bersih", "Kantin"],
+    "tahunBerdiri": 2000,
+    "deskripsi": "Masjid modern dengan fasilitas lengkap untuk berbagai kegiatan keagamaan dan sosial.",
+    "foto": "https://images.unsplash.com/photo-1590073844006-33379778ae09?w=400",
+    "jadwalKegiatan": [
+      { "hari": "Senin", "kegiatan": "Kelas Tahfidz", "waktu": "16:00 - 18:00" },
+      { "hari": "Rabu", "kegiatan": "Kajian Hadits", "waktu": "19:30 - 21:00" },
+      { "hari": "Jumat", "kegiatan": "Sholat Jumat & Khutbah", "waktu": "12:00 - 13:00" },
+      { "hari": "Sabtu", "kegiatan": "Bazar Amal", "waktu": "08:00 - 12:00" }
+    ]
+  },
+  {
+    "id": 7,
+    "nama": "Masjid At-Taqwa",
+    "lat": 0.4750,
+    "lng": 101.4300,
+    "kategori": "Masjid Jami",
+    "kapasitas": 500,
+    "alamat": "Jl. Riau, Pekanbaru Kota",
+    "telp": "0761-89012",
+    "jadwalSholat": {
+      "subuh": "05:15",
+      "dzuhur": "12:15",
+      "ashar": "15:30",
+      "maghrib": "18:15",
+      "isya": "19:30"
+    },
+    "fasilitas": ["Parkir Terbatas", "Kajian Ahad", "TPQ", "Perpustakaan"],
+    "tahunBerdiri": 1975,
+    "deskripsi": "Masjid di pusat kota dengan jamaah loyal dan program mengaji untuk semua usia.",
+    "foto": "https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?w=400",
+    "jadwalKegiatan": [
+      { "hari": "Senin-Sabtu", "kegiatan": "TPQ Sore", "waktu": "15:30 - 17:00" },
+      { "hari": "Kamis", "kegiatan": "Pengajian Bapak-bapak", "waktu": "20:00 - 21:30" },
+      { "hari": "Jumat", "kegiatan": "Sholat Jumat & Khutbah", "waktu": "12:00 - 13:00" },
+      { "hari": "Ahad", "kegiatan": "Kajian Ahad Pagi", "waktu": "08:00 - 10:00" }
+    ]
+  },
+  {
+    "id": 8,
+    "nama": "Masjid Baitul Makmur",
+    "lat": 0.5400,
+    "lng": 101.4750,
+    "kategori": "Masjid Jami",
+    "kapasitas": 700,
+    "alamat": "Jl. Garuda Sakti, Panam, Pekanbaru",
+    "telp": "0761-90123",
+    "jadwalSholat": {
+      "subuh": "05:15",
+      "dzuhur": "12:15",
+      "ashar": "15:30",
+      "maghrib": "18:15",
+      "isya": "19:30"
+    },
+    "fasilitas": ["Parkir", "Toilet", "Tempat Wudhu Luas", "Mihrab Indah", "Sound System"],
+    "tahunBerdiri": 2005,
+    "deskripsi": "Masjid strategis dekat kampus dengan jamaah mahasiswa yang aktif dalam kegiatan dakwah.",
+    "foto": "https://images.unsplash.com/photo-1564769625905-50e93615e769?w=400",
+    "jadwalKegiatan": [
+      { "hari": "Selasa", "kegiatan": "Kajian Pemuda", "waktu": "19:30 - 21:00" },
+      { "hari": "Kamis", "kegiatan": "Tahsin Quran", "waktu": "16:00 - 17:30" },
+      { "hari": "Jumat", "kegiatan": "Sholat Jumat & Khutbah", "waktu": "12:00 - 13:00" },
+      { "hari": "Minggu", "kegiatan": "Futsal Jamaah", "waktu": "07:00 - 09:00" }
+    ]
+  },
+  {
+    "id": 9,
+    "nama": "Masjid Al-Falah",
+    "lat": 0.4650,
+    "lng": 101.4500,
+    "kategori": "Masjid Jami",
+    "kapasitas": 450,
+    "alamat": "Jl. Ahmad Yani, Pekanbaru",
+    "telp": "0761-12345",
+    "jadwalSholat": {
+      "subuh": "05:15",
+      "dzuhur": "12:15",
+      "ashar": "15:30",
+      "maghrib": "18:15",
+      "isya": "19:30"
+    },
+    "fasilitas": ["Parkir", "AC", "Tempat Wudhu", "TPQ Anak"],
+    "tahunBerdiri": 1992,
+    "deskripsi": "Masjid ramah anak dengan program pendidikan Al-Quran yang terstruktur.",
+    "foto": "https://images.unsplash.com/photo-1591608971362-f08b2a75731a?w=400",
+    "jadwalKegiatan": [
+      { "hari": "Senin-Jumat", "kegiatan": "PAUD Islami", "waktu": "08:00 - 11:00" },
+      { "hari": "Rabu", "kegiatan": "Kajian Parenting Islami", "waktu": "09:30 - 11:00" },
+      { "hari": "Jumat", "kegiatan": "Sholat Jumat & Khutbah", "waktu": "12:00 - 13:00" },
+      { "hari": "Sabtu", "kegiatan": "Lomba Hafalan Anak", "waktu": "09:00 - 12:00" }
+    ]
+  },
+  {
+    "id": 10,
+    "nama": "Masjid Jami' Al-Muttaqin",
+    "lat": 0.5500,
+    "lng": 101.4400,
+    "kategori": "Masjid Jami",
+    "kapasitas": 850,
+    "alamat": "Jl. Kulim, Tenayan Raya, Pekanbaru",
+    "telp": "0761-54321",
+    "jadwalSholat": {
+      "subuh": "05:15",
+      "dzuhur": "12:15",
+      "ashar": "15:30",
+      "maghrib": "18:15",
+      "isya": "19:30"
+    },
+    "fasilitas": ["Parkir Luas", "Taman", "Toilet Modern", "Ruang Serbaguna"],
+    "tahunBerdiri": 2010,
+    "deskripsi": "Masjid dengan taman yang asri dan program sosial yang aktif melayani masyarakat.",
+    "foto": "https://images.unsplash.com/photo-1584291527905-0d912e37f927?w=400",
+    "jadwalKegiatan": [
+      { "hari": "Senin", "kegiatan": "Posyandu Lansia", "waktu": "08:00 - 11:00" },
+      { "hari": "Rabu", "kegiatan": "Kajian Tasawuf", "waktu": "19:30 - 21:00" },
+      { "hari": "Jumat", "kegiatan": "Sholat Jumat & Khutbah", "waktu": "12:00 - 13:00" },
+      { "hari": "Sabtu", "kegiatan": "Berkebun Bersama", "waktu": "07:00 - 09:00" }
+    ]
+  }
+]

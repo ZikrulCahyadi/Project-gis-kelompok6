@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===================== */
+/* BASE THEME VARIABLES  */
+/* ===================== */
+@layer base {
+  :root {
+    --background: 150 20% 98%;
+    --foreground: 160 30% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 160 30% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 160 30% 10%;
+
+    --primary: 158 64% 35%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 160 25% 92%;
+    --secondary-foreground: 160 30% 15%;
+
+    --muted: 150 15% 94%;
+    --muted-foreground: 160 15% 45%;
+
+    --accent: 45 93% 47%;
+    --accent-foreground: 160 30% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 160 20% 88%;
+    --input: 160 20% 88%;
+    --ring: 158 64% 35%;
+
+    --radius: 0.75rem;
+
+    /* Custom colors */
+    --emerald: 158 64% 35%;
+    --emerald-light: 158 50% 50%;
+    --emerald-dark: 158 70% 25%;
+    --teal: 174 60% 40%;
+    --gold: 45 93% 47%;
+    --gold-light: 45 90% 60%;
+    --cream: 45 30% 96%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(158 64% 35%), hsl(174 60% 40%));
+    --gradient-gold: linear-gradient(135deg, hsl(45 93% 47%), hsl(45 90% 60%));
+    --gradient-hero: linear-gradient(180deg, hsl(158 64% 35% / 0.95), hsl(174 60% 40% / 0.9));
+
+    /* Shadows */
+    --shadow-sm: 0 2px 8px hsl(160 30% 10% / 0.05);
+    --shadow-md: 0 4px 20px hsl(160 30% 10% / 0.08);
+    --shadow-lg: 0 10px 40px hsl(160 30% 10% / 0.12);
+    --shadow-glow: 0 0 30px hsl(158 64% 35% / 0.2);
+
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  .dark {
+    --background: 160 30% 8%;
+    --foreground: 150 20% 95%;
+
+    --card: 160 25% 12%;
+    --card-foreground: 150 20% 95%;
+
+    --popover: 160 25% 12%;
+    --popover-foreground: 150 20% 95%;
+
+    --primary: 158 55% 45%;
+    --primary-foreground: 160 30% 8%;
+
+    --secondary: 160 20% 18%;
+    --secondary-foreground: 150 20% 90%;
+
+    --muted: 160 20% 18%;
+    --muted-foreground: 150 15% 60%;
+
+    --border: 160 20% 20%;
+    --input: 160 20% 20%;
+    --ring: 158 55% 45%;
+  }
+}
+
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+
+@layer utilities {
+  .text-gradient {
+    background-image: var(--gradient-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .text-gradient-gold {
+    background-image: var(--gradient-gold);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .bg-gradient-primary {
+    background-image: var(--gradient-primary);
+  }
+
+  .bg-gradient-hero {
+    background-image: var(--gradient-hero);
+  }
+
+  .shadow-elegant {
+    box-shadow: var(--shadow-md);
+  }
+
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .glass {
+    backdrop-filter: blur(12px);
+    background-color: hsl(0 0% 100% / 0.8);
+    border: 1px solid hsl(0 0% 100% / 0.2);
+  }
+
+  .animate-fade-up {
+    animation: fadeUp 0.6s ease-out forwards;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.4s ease-out forwards;
+  }
+}
+
+/* ===================== */
+/* ANIMATIONS            */
+/* ===================== */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* ===================== */
+/* LEAFLET OVERRIDES     */
+/* ===================== */
+.leaflet-container {
+  font-family: var(--font-body);
+  border-radius: var(--radius);
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+}
+
+.leaflet-popup-content {
+  margin: 12px 16px;
+}
