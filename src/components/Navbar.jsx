@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
+import { MapPin } from "lucide-react";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,9 +9,9 @@ export default function Navbar() {
   const isActive = (path) => location.pathname === path;
 
   const navLinks = [
-    { path: "/", label: "🏠 Beranda" },
-    { path: "/persebaran", label: "📋 Daftar Masjid" },
-    { path: "/peta", label: "🗺️ Peta Interaktif" }
+    { path: "/", label: "Beranda" },
+    { path: "/persebaran", label: "Daftar Masjid" },
+    { path: "/peta", label: "Peta Interaktif" }
   ];
 
   return (
@@ -21,9 +22,8 @@ export default function Navbar() {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
             <div className="bg-white/20 p-3 rounded-full">
-              <svg className="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2L3 7v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-5z"/>
-              </svg>
+              <MapPin className="text-white w-6 h-6" />
+
             </div>
             <div>
               <h1 className="text-xl font-bold text-white">
@@ -41,11 +41,10 @@ export default function Navbar() {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`px-4 py-2 rounded-lg font-medium transition ${
-                  isActive(link.path)
+                className={`px-4 py-2 rounded-lg font-medium transition ${isActive(link.path)
                     ? "bg-white text-emerald-600 shadow"
                     : "text-white hover:bg-white/20"
-                }`}
+                  }`}
               >
                 {link.label}
               </Link>
@@ -70,11 +69,10 @@ export default function Navbar() {
               key={link.path}
               to={link.path}
               onClick={() => setIsOpen(false)}
-              className={`block px-4 py-2 rounded-lg font-medium ${
-                isActive(link.path)
+              className={`block px-4 py-2 rounded-lg font-medium ${isActive(link.path)
                   ? "bg-white text-emerald-600"
                   : "text-white hover:bg-white/20"
-              }`}
+                }`}
             >
               {link.label}
             </Link>

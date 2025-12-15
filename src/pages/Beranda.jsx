@@ -164,7 +164,7 @@ export default function Beranda() {
               </span>
             </div>
             <p className="text-background/60 font-body text-sm text-center">
-              © 2024 Sistem Informasi Geografis Masjid Kota Pekanbaru. All rights reserved.
+              © 2025 Sistem Informasi Geografis Masjid Kota Pekanbaru. All rights reserved.
             </p>
           </div>
         </div>
