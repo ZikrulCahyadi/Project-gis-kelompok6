@@ -35,7 +35,7 @@ export default function PersebaranList() {
 
   return (
     <div className="min-h-screen bg-background">
-      {/* Header */}
+  
       <section className="bg-gradient-primary py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
@@ -52,11 +52,9 @@ export default function PersebaranList() {
         </div>
       </section>
 
-      {/* Filters */}
       <section className="py-8 bg-secondary/30 sticky top-20 z-40 backdrop-blur-md border-b border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row gap-4 items-center">
-            {/* Search */}
             <div className="relative flex-1 w-full">
               <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
               <input
@@ -68,7 +66,6 @@ export default function PersebaranList() {
               />
             </div>
 
-            {/* Category Filter */}
             <div className="flex items-center gap-2 flex-wrap justify-center">
               <Filter className="w-5 h-5 text-muted-foreground" />
               <button

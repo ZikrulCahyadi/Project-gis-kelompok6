@@ -14,7 +14,7 @@ L.Icon.Default.mergeOptions({
 
 // Custom mosque icon
 const mosqueIcon = new L.Icon({
-  iconUrl: "https://cdn-icons-png.flaticon.com/512/2642/2642335.png",
+  iconUrl: "https://cdn-icons-png.flaticon.com/512/10073/10073969.png",
   iconSize: [36, 36],
   iconAnchor: [18, 36],
   popupAnchor: [0, -36],

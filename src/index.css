@@ -4,9 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ===================== */
-/* BASE THEME VARIABLES  */
-/* ===================== */
+
 @layer base {
   :root {
     --background: 150 20% 98%;
