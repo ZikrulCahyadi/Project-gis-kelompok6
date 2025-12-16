@@ -546,10 +546,10 @@
   },
   {
     "id": 23,
-    "nama": "Masjid Al-Mustaqim",
+    "nama": "Masjid Agung Annur",
     "lat": 0.518969,
     "lng": 101.452337,
-    "kategori": "Masjid Lingkungan",
+    "kategori": "Masjid Agung",
     "kapasitas": 150,
     "alamat": "Gang Al-Mustaqim, Sail",
     "telp": "0761-24242",
@@ -620,13 +620,13 @@
   },
   {
     "id": 26,
-    "nama": "Masjid Al-Mustaqim II",
-    "lat": 0.526118,
-    "lng": 101.459344,
-    "kategori": "Masjid Komplek",
-    "kapasitas": 200,
-    "alamat": "Jalan Dahlia, Sail",
-    "telp": "0761-27272",
+    "nama": "Masjid Agung Ar-Rahman",
+    "lat": 0.511018,
+    "lng": 101.448837,
+    "kategori": "Masjid Agung",
+    "kapasitas": 3000,
+    "alamat": "Jl. Jenderal Sudirman No. 496, Cinta Raja, Kec. Sail",
+    "telp": "(0761) 855909",
     "jadwalSholat": {
       "subuh": "04:42",
       "dzuhur": "12:08",
@@ -635,12 +635,13 @@
       "isya": "19:25"
     },
     "fasilitas": [
-      "Parkir",
-      "Toilet",
-      "AC"
+      "Parkir Luas",
+      "Pusat Pendidikan",
+      "AC",
+      "Gedung Serbaguna"
     ],
-    "tahunBerdiri": 2007,
-    "deskripsi": "Masjid aktif dengan pengajian rutin dan kegiatan sosial warga.",
+    "tahunBerdiri": 1993,
+    "deskripsi": "Salah satu masjid terbesar di Pekanbaru yang terletak di pusat kota, menjadi masjid utama di kawasan Sail.",
     "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/26.jpg"
   },
   {
@@ -768,5 +769,719 @@
     "tahunBerdiri": 2010,
     "deskripsi": "Masjid aktif dengan pengajian remaja dan kegiatan sosial warga sekitar.",
     "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/31.jpg"
+  },
+  {
+    "id": 32,
+    "nama": "Masjid Al-Husna",
+    "lat": 0.448462,
+    "lng": 101.451404,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 250,
+    "alamat": "Jalan Kaharuddin Nasution, Bukit Raya",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:41",
+      "dzuhur": "12:07",
+      "ashar": "15:31",
+      "maghrib": "18:10",
+      "isya": "19:24"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet"
+    ],
+    "tahunBerdiri": 2005,
+    "deskripsi": "Masjid di Jalan Kaharuddin Nasution dengan kegiatan rutin.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/32.jpeg"
+  },
+  {
+    "id": 33,
+    "nama": "Masjid Al-Hikmah",
+    "lat": 0.452483,
+    "lng": 101.448807,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 280,
+    "alamat": "Jalan Pahlawan Kerja, Marpoyan Damai",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:41",
+      "dzuhur": "12:07",
+      "ashar": "15:31",
+      "maghrib": "18:10",
+      "isya": "19:24"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "TPQ"
+    ],
+    "tahunBerdiri": 2008,
+    "deskripsi": "Masjid di kawasan Marpoyan Damai yang ramai dengan kegiatan pendidikan.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/33.jpeg"
+  },
+  {
+    "id": 34,
+    "nama": "Masjid Alhamdulillah",
+    "lat": 0.537023,
+    "lng": 101.421192,
+    "kategori": "Masjid Lingkungan",
+    "kapasitas": 150,
+    "alamat": "Jalan Kayu Manis No.17-18, Payung Sekaki",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:41",
+      "dzuhur": "12:07",
+      "ashar": "15:31",
+      "maghrib": "18:10",
+      "isya": "19:24"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet"
+    ],
+    "tahunBerdiri": 2000,
+    "deskripsi": "Masjid di lingkungan padat penduduk Payung Sekaki.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/34.jpeg"
+  },
+  {
+    "id": 35,
+    "nama": "Masjid Nurul Islam",
+    "lat": 0.538455,
+    "lng": 101.43051,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 200,
+    "alamat": "Jalan Kulim No 42, Senapelan",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:42",
+      "dzuhur": "12:08",
+      "ashar": "15:32",
+      "maghrib": "18:11",
+      "isya": "19:25"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "AC"
+    ],
+    "tahunBerdiri": 2007,
+    "deskripsi": "Masjid di kawasan Senapelan dengan bangunan yang terawat.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/35.jpeg"
+  },
+  {
+    "id": 36,
+    "nama": "Masjid Al Ikhlas",
+    "lat": 0.550127,
+    "lng": 101.436293,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 220,
+    "alamat": "Jalan Yos Sudarso, Rumbai Pesisir",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:42",
+      "dzuhur": "12:08",
+      "ashar": "15:32",
+      "maghrib": "18:11",
+      "isya": "19:25"
+    },
+    "fasilitas": [
+      "Parkir Luas",
+      "Toilet"
+    ],
+    "tahunBerdiri": 2009,
+    "deskripsi": "Masjid besar di pinggir Jalan Yos Sudarso, Rumbai Pesisir.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/36.jpeg"
+  },
+  {
+    "id": 37,
+    "nama": "Masjid Al-Ghufran",
+    "lat": 0.538585,
+    "lng": 101.432953,
+    "kategori": "Masjid Lingkungan",
+    "kapasitas": 140,
+    "alamat": "Jalan Singkawang, Senapelan",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:41",
+      "dzuhur": "12:07",
+      "ashar": "15:31",
+      "maghrib": "18:10",
+      "isya": "19:24"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet"
+    ],
+    "tahunBerdiri": 2003,
+    "deskripsi": "Masjid di lingkungan Singkawang, Senapelan.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/37.jpeg"
+  },
+  {
+    "id": 38,
+    "nama": "Masjid Al-Ihsan",
+    "lat": 0.55872,
+    "lng": 101.43335,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 300,
+    "alamat": "Jalan Yos Sudarso no 201, Rumbai Pesisir",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:42",
+      "dzuhur": "12:08",
+      "ashar": "15:32",
+      "maghrib": "18:11",
+      "isya": "19:25"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "AC",
+      "TPQ"
+    ],
+    "tahunBerdiri": 2010,
+    "deskripsi": "Masjid besar dengan program pendidikan aktif di Rumbai Pesisir.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/38.jpeg"
+  },
+  {
+    "id": 39,
+    "nama": "Masjid Al-Arafah",
+    "lat": 0.560475,
+    "lng": 101.441398,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 250,
+    "alamat": "Jalan Kayangan, Rumbai Pesisir",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:42",
+      "dzuhur": "12:08",
+      "ashar": "15:32",
+      "maghrib": "18:11",
+      "isya": "19:25"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet"
+    ],
+    "tahunBerdiri": 2006,
+    "deskripsi": "Masjid di kawasan Kayangan yang menjadi pusat ibadah warga sekitar.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/39.jpeg"
+  },
+  {
+    "id": 40,
+    "nama": "Masjid Al-Barru",
+    "lat": 0.538228,
+    "lng": 101.436217,
+    "kategori": "Masjid Lingkungan",
+    "kapasitas": 160,
+    "alamat": "Jalan Yos Sudarso, Senapelan",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:41",
+      "dzuhur": "12:07",
+      "ashar": "15:31",
+      "maghrib": "18:10",
+      "isya": "19:24"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet"
+    ],
+    "tahunBerdiri": 2004,
+    "deskripsi": "Masjid di pinggir Jalan Yos Sudarso, Senapelan.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/40.jpeg"
+  },
+  {
+    "id": 41,
+    "nama": "Masjid Al Urwatul Wutsqa",
+    "lat": 0.568229,
+    "lng": 101.432372,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 250,
+    "alamat": "Jalan Paus, Rumbai Pesisir",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:42",
+      "dzuhur": "12:08",
+      "ashar": "15:32",
+      "maghrib": "18:11",
+      "isya": "19:25"
+    },
+    "fasilitas": [
+      "Parkir Luas",
+      "Toilet",
+      "TPQ"
+    ],
+    "tahunBerdiri": 2008,
+    "deskripsi": "Masjid di Jalan Paus, Rumbai Pesisir, dengan kegiatan pendidikan.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/41.jpeg"
+  },
+  {
+    "id": 42,
+    "nama": "Masjid At-Jusni",
+    "lat": 0.571419,
+    "lng": 101.461053,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 200,
+    "alamat": "Jalan Lembah sari, Rumbai Pesisir",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:43",
+      "dzuhur": "12:09",
+      "ashar": "15:33",
+      "maghrib": "18:12",
+      "isya": "19:26"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet"
+    ],
+    "tahunBerdiri": 2005,
+    "deskripsi": "Masjid di kawasan Lembah Sari, Rumbai Pesisir.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/42.jpeg"
+  },
+  {
+    "id": 43,
+    "nama": "Masjid Al-Kautsar",
+    "lat": 0.516249,
+    "lng": 101.422521,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 180,
+    "alamat": "Jl.Selamat No 4, Payung Sekaki",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:41",
+      "dzuhur": "12:07",
+      "ashar": "15:31",
+      "maghrib": "18:10",
+      "isya": "19:24"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "AC"
+    ],
+    "tahunBerdiri": 2007,
+    "deskripsi": "Masjid di Payung Sekaki dengan lokasi yang strategis.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/43.jpeg"
+  },
+  {
+    "id": 44,
+    "nama": "Masjid Da'Wah",
+    "lat": 0.570587,
+    "lng": 101.445475,
+    "kategori": "Masjid Jami",
+    "kapasitas": 400,
+    "alamat": "Jl.Paus, Rumbai Pesisir",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:43",
+      "dzuhur": "12:09",
+      "ashar": "15:33",
+      "maghrib": "18:12",
+      "isya": "19:26"
+    },
+    "fasilitas": [
+      "Parkir Luas",
+      "Toilet",
+      "Ruang Serbaguna"
+    ],
+    "tahunBerdiri": 2011,
+    "deskripsi": "Masjid besar di Jalan Paus, menjadi pusat kegiatan dakwah di Rumbai Pesisir.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/44.jpeg"
+  },
+  {
+    "id": 45,
+    "nama": "Masjid Akhlaqul Karimah",
+    "lat": 0.571018,
+    "lng": 101.452761,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 280,
+    "alamat": "Jl.Pramuka No 47, Rumbai Pesisir",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:43",
+      "dzuhur": "12:09",
+      "ashar": "15:33",
+      "maghrib": "18:12",
+      "isya": "19:26"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "TPQ"
+    ],
+    "tahunBerdiri": 2009,
+    "deskripsi": "Masjid dengan fokus kegiatan pada pembinaan akhlak dan pendidikan.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/45.jpeg"
+  },
+  {
+    "id": 46,
+    "nama": "Masjid Darul Aksan",
+    "lat": 0.535105,
+    "lng": 101.425325,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 200,
+    "alamat": "Jl.Riau, Payung Sekaki",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:42",
+      "dzuhur": "12:08",
+      "ashar": "15:32",
+      "maghrib": "18:11",
+      "isya": "19:25"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "Sound System"
+    ],
+    "tahunBerdiri": 2006,
+    "deskripsi": "Masjid di pinggir Jalan Riau, kawasan Payung Sekaki.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/46.jpeg"
+  },
+  {
+    "id": 47,
+    "nama": "Masjid Al-Ikhlas",
+    "lat": 0.468367,
+    "lng": 101.455836,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 250,
+    "alamat": "Jl.Ikhlas No 30, Bukit Raya",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:41",
+      "dzuhur": "12:07",
+      "ashar": "15:31",
+      "maghrib": "18:10",
+      "isya": "19:24"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "AC"
+    ],
+    "tahunBerdiri": 2009,
+    "deskripsi": "Masjid di Jalan Ikhlas, Bukit Raya, dengan kegiatan jemaah yang padat.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/47.jpeg"
+  },
+  {
+    "id": 48,
+    "nama": "Masjid Al-Mujahidin",
+    "lat": 0.523485,
+    "lng": 101.424087,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 220,
+    "alamat": "Jl.Dahlia No 38, Payung Sekaki",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:41",
+      "dzuhur": "12:07",
+      "ashar": "15:31",
+      "maghrib": "18:10",
+      "isya": "19:24"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "TPQ"
+    ],
+    "tahunBerdiri": 2005,
+    "deskripsi": "Masjid di Payung Sekaki yang rutin mengadakan pengajian.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/48.jpeg"
+  },
+  {
+    "id": 49,
+    "nama": "Masjid Al-Fithrah",
+    "lat": 0.571363,
+    "lng": 101.456181,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 200,
+    "alamat": "Jl.Pramuka, Rumbai Pesisir",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:43",
+      "dzuhur": "12:09",
+      "ashar": "15:33",
+      "maghrib": "18:12",
+      "isya": "19:26"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet"
+    ],
+    "tahunBerdiri": 2007,
+    "deskripsi": "Masjid di kawasan Pramuka, Rumbai Pesisir.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/49.jpeg"
+  },
+  {
+    "id": 50,
+    "nama": "Masjid Baitul Muktamar",
+    "lat": 0.566886,
+    "lng": 101.426647,
+    "kategori": "Masjid Lingkungan",
+    "kapasitas": 150,
+    "alamat": "Jl.Intisari, Rumbai",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:42",
+      "dzuhur": "12:08",
+      "ashar": "15:32",
+      "maghrib": "18:11",
+      "isya": "19:25"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet"
+    ],
+    "tahunBerdiri": 2001,
+    "deskripsi": "Masjid sederhana di Jalan Intisari, Rumbai.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/50.jpeg"
+  },
+  {
+    "id": 51,
+    "nama": "Masjid Al Irham",
+    "lat": 0.568226,
+    "lng": 101.417042,
+    "kategori": "Masjid Lingkungan",
+    "kapasitas": 120,
+    "alamat": "Jl.Kartika Sari, Rumbai",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:42",
+      "dzuhur": "12:08",
+      "ashar": "15:32",
+      "maghrib": "18:11",
+      "isya": "19:25"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet"
+    ],
+    "tahunBerdiri": 1999,
+    "deskripsi": "Masjid di perumahan Kartika Sari, Rumbai.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/51.jpeg"
+  },
+  {
+    "id": 52,
+    "nama": "Masjid Raya",
+    "lat": 0.537267,
+    "lng": 101.441941,
+    "kategori": "Masjid Raya",
+    "kapasitas": 1500,
+    "alamat": "Jalan Senapelan, Senapelan",
+    "telp": "0761-xxxxxx",
+    "jadwalSholat": {
+      "subuh": "04:42",
+      "dzuhur": "12:08",
+      "ashar": "15:32",
+      "maghrib": "18:11",
+      "isya": "19:25"
+    },
+    "fasilitas": [
+      "Parkir Luas",
+      "Toilet Modern",
+      "Ruang Serbaguna",
+      "Sejarah"
+    ],
+    "tahunBerdiri": 1762,
+    "deskripsi": "Salah satu masjid tertua dan bersejarah di Pekanbaru, pusat kegiatan keagamaan kota.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/52.jpeg"
+  },
+  {
+    "id": 53,
+    "nama": "Masjid Ihsan",
+    "lat": 0.477981,
+    "lng": 101.420524,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 200,
+    "alamat": "Jl.Dirgantara, Marpoyan Damai",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:41",
+      "dzuhur": "12:07",
+      "ashar": "15:31",
+      "maghrib": "18:10",
+      "isya": "19:24"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet"
+    ],
+    "tahunBerdiri": 2006,
+    "deskripsi": "Masjid di kawasan Dirgantara, Marpoyan Damai.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/53.jpeg"
+  },
+  {
+    "id": 54,
+    "nama": "Masjid Jami' Al Badr",
+    "lat": 0.565751,
+    "lng": 101.431135,
+    "kategori": "Masjid Jami",
+    "kapasitas": 500,
+    "alamat": "Jl Yos Sudarso, Rumbai Pesisir",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:42",
+      "dzuhur": "12:08",
+      "ashar": "15:32",
+      "maghrib": "18:11",
+      "isya": "19:25"
+    },
+    "fasilitas": [
+      "Parkir Luas",
+      "Toilet",
+      "TPQ"
+    ],
+    "tahunBerdiri": 2012,
+    "deskripsi": "Masjid Jami yang besar dan ramai di Jalan Yos Sudarso.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/54.jpeg"
+  },
+  {
+    "id": 55,
+    "nama": "Masjid Senapelan",
+    "lat": 0.535292,
+    "lng": 101.434856,
+    "kategori": "Masjid Lingkungan",
+    "kapasitas": 180,
+    "alamat": "Jl Riau, Senapelan",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:42",
+      "dzuhur": "12:08",
+      "ashar": "15:32",
+      "maghrib": "18:11",
+      "isya": "19:25"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet"
+    ],
+    "tahunBerdiri": 2003,
+    "deskripsi": "Masjid di kawasan Riau, Senapelan.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/55.jpeg"
+  },
+  {
+    "id": 56,
+    "nama": "Masjid Istikhoroh",
+    "lat": 0.533733,
+    "lng": 101.431273,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 200,
+    "alamat": "Jl Riau, Senapelan",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:42",
+      "dzuhur": "12:08",
+      "ashar": "15:32",
+      "maghrib": "18:11",
+      "isya": "19:25"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "AC"
+    ],
+    "tahunBerdiri": 2008,
+    "deskripsi": "Masjid besar di Jalan Riau, Senapelan.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/56.jpeg"
+  },
+  {
+    "id": 57,
+    "nama": "Masjid Nurul Ibadah",
+    "lat": 0.570305,
+    "lng": 101.449123,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 250,
+    "alamat": "Jl Pramuka Rumbai, Rumbai Pesisir",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:43",
+      "dzuhur": "12:09",
+      "ashar": "15:33",
+      "maghrib": "18:12",
+      "isya": "19:26"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet",
+      "TPQ"
+    ],
+    "tahunBerdiri": 2009,
+    "deskripsi": "Masjid di Jalan Pramuka, Rumbai Pesisir.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/57.jpeg"
+  },
+  {
+    "id": 58,
+    "nama": "Masjdi Nurul Islam",
+    "lat": 0.538575,
+    "lng": 101.430145,
+    "kategori": "Masjid Lingkungan",
+    "kapasitas": 150,
+    "alamat": "Jl Kulim No 38 A, Payung Sekaki",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:42",
+      "dzuhur": "12:08",
+      "ashar": "15:32",
+      "maghrib": "18:11",
+      "isya": "19:25"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet"
+    ],
+    "tahunBerdiri": 2002,
+    "deskripsi": "Masjid di Jalan Kulim, Payung Sekaki.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/58.jpeg"
+  },
+  {
+    "id": 59,
+    "nama": "Masjid Al Hijrah",
+    "lat": 0.579645,
+    "lng": 101.404245,
+    "kategori": "Masjid Lingkungan",
+    "kapasitas": 180,
+    "alamat": "Jl Palas Mekar, Rumbai",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:43",
+      "dzuhur": "12:09",
+      "ashar": "15:33",
+      "maghrib": "18:12",
+      "isya": "19:26"
+    },
+    "fasilitas": [
+      "Parkir",
+      "Toilet"
+    ],
+    "tahunBerdiri": 2004,
+    "deskripsi": "Masjid di kawasan Palas Mekar, Rumbai.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/59.jpeg"
+  },
+  {
+    "id": 60,
+    "nama": "Masjid Al Jihad",
+    "lat": 0.583192,
+    "lng": 101.397518,
+    "kategori": "Masjid Komplek",
+    "kapasitas": 250,
+    "alamat": "Jl Siak 2, Rumbai",
+    "telp": "-",
+    "jadwalSholat": {
+      "subuh": "04:43",
+      "dzuhur": "12:09",
+      "ashar": "15:33",
+      "maghrib": "18:12",
+      "isya": "19:26"
+    },
+    "fasilitas": [
+      "Parkir Luas",
+      "Toilet",
+      "TPQ"
+    ],
+    "tahunBerdiri": 2010,
+    "deskripsi": "Masjid besar di pinggir Jalan Siak II, Rumbai.",
+    "foto": "https://wzypjglarryrvhndcxmf.supabase.co/storage/v1/object/public/mesjid-foto/60.jpeg"
   }
+  
 ]
