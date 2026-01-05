@@ -5,6 +5,8 @@ import PersebaranList from "./pages/PersebaranList.jsx";
 import PersebaranDetail from "./pages/PersebaranDetail.jsx";
 import MapPage from "./pages/MapPage.jsx";
 import NotFound from "./pages/NotFound.jsx";
+import LoginPage from "./pages/LoginPage.jsx";  
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
         <Route path="/persebaran/:id" element={<PersebaranDetail />} />
         <Route path="/peta" element={<MapPage />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/login" element={<LoginPage />} />
       </Routes>
     </BrowserRouter>
   );

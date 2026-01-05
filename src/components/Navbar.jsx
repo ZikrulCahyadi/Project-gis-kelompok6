@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
-import { MapPin } from "lucide-react";
+import { MapPin, LogIn } from "lucide-react";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +23,6 @@ export default function Navbar() {
           <Link to="/" className="flex items-center space-x-3">
             <div className="bg-white/20 p-3 rounded-full">
               <MapPin className="text-white w-6 h-6" />
-
             </div>
             <div>
               <h1 className="text-xl font-bold text-white">
@@ -49,6 +48,15 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
+            
+            {/* Login Button - Desktop */}
+            <Link
+              to="/login"
+              className="ml-4 px-5 py-2 bg-white text-emerald-600 rounded-lg font-medium shadow-lg hover:bg-emerald-50 transition flex items-center space-x-2"
+            >
+              <LogIn className="w-4 h-4" />
+              <span>Login</span>
+            </Link>
           </div>
 
           {/* Mobile Button */}
@@ -77,6 +85,16 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
+          
+          {/* Login Button - Mobile */}
+          <Link
+            to="/login"
+            onClick={() => setIsOpen(false)}
+            className="flex items-center justify-center space-x-2 px-4 py-2 bg-white text-emerald-600 rounded-lg font-medium shadow"
+          >
+            <LogIn className="w-4 h-4" />
+            <span>Login</span>
+          </Link>
         </div>
       )}
     </nav>
