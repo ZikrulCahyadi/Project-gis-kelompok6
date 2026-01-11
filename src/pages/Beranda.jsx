@@ -1,10 +1,65 @@
 import { Link } from "react-router-dom";
 import { MapPin, Users, Building2, ArrowRight, Sparkles } from "lucide-react";
-import data from "../data/masjid.json";
+import { useState, useEffect } from "react";
+import { masjidService } from "../lib/masjidService";
 import StatCard from "../components/StatCard.jsx";
 import MosqueCard from "../components/MosqueCard.jsx";
 
 export default function Beranda() {
+  const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    loadData();
+  }, []);
+
+  async function loadData() {
+    try {
+      setLoading(true);
+      const result = await masjidService.getAllMasjid();
+      setData(result);
+    } catch (err) {
+      setError(err.message);
+      console.error('Error loading data:', err);
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  // Kalau masih loading
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <div className="text-center">
+          <div className="w-16 h-16 border-4 border-primary border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+          <p className="text-muted-foreground">Memuat data...</p>
+        </div>
+      </div>
+    );
+  }
+
+  // Kalau ada error
+  if (error) {
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <div className="text-center">
+          <div className="w-20 h-20 bg-destructive/10 rounded-full flex items-center justify-center mx-auto mb-4">
+            <Building2 className="w-10 h-10 text-destructive" />
+          </div>
+          <h2 className="text-xl font-bold text-foreground mb-2">Gagal memuat data</h2>
+          <p className="text-muted-foreground mb-4">{error}</p>
+          <button 
+            onClick={loadData}
+            className="px-4 py-2 bg-primary text-primary-foreground rounded-lg"
+          >
+            Coba Lagi
+          </button>
+        </div>
+      </div>
+    );
+  }
+
   const totalMasjid = data.length;
   const totalKapasitas = data.reduce((acc, d) => acc + d.kapasitas, 0);
   const kategori = [...new Set(data.map((d) => d.kategori))];

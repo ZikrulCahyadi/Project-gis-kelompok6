@@ -1,16 +1,34 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { Search, Filter, MapPin } from "lucide-react";
-import data from "../data/masjid.json";
+import { masjidService } from "../lib/masjidService";
 import MosqueCard from "../components/MosqueCard.jsx";
 
 export default function PersebaranList() {
+  const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedKategori, setSelectedKategori] = useState(null);
+
+  useEffect(() => {
+    loadData();
+  }, []);
+
+  async function loadData() {
+    try {
+      setLoading(true);
+      const result = await masjidService.getAllMasjid();
+      setData(result);
+    } catch (err) {
+      console.error('Error loading data:', err);
+    } finally {
+      setLoading(false);
+    }
+  }
 
   // Filter kategori unik
   const kategoriList = useMemo(() => {
     return [...new Set(data.map((d) => d.kategori))];
-  }, []);
+  }, [data]);
 
   // Filter data berdasarkan search dan kategori
   const filteredData = useMemo(() => {
@@ -31,7 +49,18 @@ export default function PersebaranList() {
 
       return matchSearch && matchKategori;
     });
-  }, [searchQuery, selectedKategori]);
+  }, [searchQuery, selectedKategori, data]);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <div className="text-center">
+          <div className="w-16 h-16 border-4 border-primary border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+          <p className="text-muted-foreground">Memuat daftar masjid...</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-background">
@@ -114,7 +143,7 @@ export default function PersebaranList() {
                   key={masjid.id}
                   masjid={masjid}
                   index={index}
-                  showSummary={true} // menampilkan ringkasan jadwal
+                  showSummary={true}
                 />
               ))}
             </div>

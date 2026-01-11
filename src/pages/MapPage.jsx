@@ -1,14 +1,32 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Search, Filter, Layers, X } from "lucide-react";
-import data from "../data/masjid.json";
+import { masjidService } from "../lib/masjidService";
 import MapComponent from "../components/MapComponent.jsx";
 
 export default function MapPage() {
+  const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedKategori, setSelectedKategori] = useState(null);
   const [selectedMasjid, setSelectedMasjid] = useState(null);
   const [showSidebar, setShowSidebar] = useState(true);
+
+  useEffect(() => {
+    loadData();
+  }, []);
+
+  async function loadData() {
+    try {
+      setLoading(true);
+      const result = await masjidService.getAllMasjid();
+      setData(result);
+    } catch (err) {
+      console.error('Error loading data:', err);
+    } finally {
+      setLoading(false);
+    }
+  }
 
   const kategoriList = [...new Set(data.map((d) => d.kategori))];
 
@@ -21,6 +39,17 @@ export default function MapPage() {
       : true;
     return matchSearch && matchKategori;
   });
+
+  if (loading) {
+    return (
+      <div className="h-[calc(100vh-5rem)] flex items-center justify-center bg-background">
+        <div className="text-center">
+          <div className="w-16 h-16 border-4 border-primary border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+          <p className="text-muted-foreground">Memuat peta...</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="h-[calc(100vh-5rem)] relative flex">
