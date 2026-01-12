@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { MapPin, Users, Calendar, ChevronRight } from "lucide-react";
 
 export default function MasjidCard({ masjid, index = 0 }) {
+    console.log("Data masjid:", masjid);
   return (
     <Link
       to={`/persebaran/${masjid.id}`}
@@ -45,7 +46,8 @@ export default function MasjidCard({ masjid, index = 0 }) {
               </div>
               <div className="flex items-center gap-1.5">
                 <Calendar className="w-4 h-4 text-gold" />
-                <span className="font-body">{masjid.tahunBerdiri}</span>
+                  <span className="font-body">{masjid.tahun_berdiri}</span>
+                
               </div>
             </div>
           </div>
