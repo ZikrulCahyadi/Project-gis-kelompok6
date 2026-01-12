@@ -1,4 +1,5 @@
 import { useParams, Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 import {
   MapPin,
   Phone,
@@ -9,14 +10,46 @@ import {
   Building2,
   CheckCircle,
 } from "lucide-react";
-import data from "../data/masjid.json";
+import { masjidService } from "../lib/masjidService";
 import MapComponent from "../components/MapComponent.jsx";
 
 export default function PersebaranDetail() {
   const { id } = useParams();
-  const masjid = data.find((item) => item.id === Number(id));
+  const [masjid, setMasjid] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
-  if (!masjid) {
+  useEffect(() => {
+    loadMasjid();
+  }, [id]);
+
+  async function loadMasjid() {
+    try {
+      setLoading(true);
+      const result = await masjidService.getMasjidById(Number(id));
+      setMasjid(result);
+    } catch (err) {
+      setError(err.message);
+      console.error('Error loading masjid:', err);
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  // Loading state
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <div className="text-center">
+          <div className="w-16 h-16 border-4 border-primary border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+          <p className="text-muted-foreground">Memuat data masjid...</p>
+        </div>
+      </div>
+    );
+  }
+
+  // Error or not found
+  if (error || !masjid) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">
         <div className="text-center">
@@ -42,11 +75,11 @@ export default function PersebaranDetail() {
   }
 
   const jadwalSholat = [
-    { nama: "Subuh", waktu: masjid.jadwalSholat.subuh },
-    { nama: "Dzuhur", waktu: masjid.jadwalSholat.dzuhur },
-    { nama: "Ashar", waktu: masjid.jadwalSholat.ashar },
-    { nama: "Maghrib", waktu: masjid.jadwalSholat.maghrib },
-    { nama: "Isya", waktu: masjid.jadwalSholat.isya },
+    { nama: "Subuh", waktu: masjid.jadwal_sholat?.subuh || "-" },
+    { nama: "Dzuhur", waktu: masjid.jadwal_sholat?.dzuhur || "-" },
+    { nama: "Ashar", waktu: masjid.jadwal_sholat?.ashar || "-" },
+    { nama: "Maghrib", waktu: masjid.jadwal_sholat?.maghrib || "-" },
+    { nama: "Isya", waktu: masjid.jadwal_sholat?.isya || "-" },
   ];
 
   return (
@@ -54,7 +87,7 @@ export default function PersebaranDetail() {
       {/* Hero */}
       <section className="relative h-80 md:h-96">
         <img
-          src={masjid.foto}
+          src={masjid.foto || "https://via.placeholder.com/1200x400?text=Masjid"}
           alt={masjid.nama}
           className="w-full h-full object-cover"
         />
@@ -117,7 +150,7 @@ export default function PersebaranDetail() {
                     </div>
                     <span className="font-body text-sm text-muted-foreground">Kapasitas</span>
                   </div>
-                  <p className="font-body text-foreground">{masjid.kapasitas.toLocaleString()} Jamaah</p>
+                  <p className="font-body text-foreground">{masjid.kapasitas?.toLocaleString() || "-"} Jamaah</p>
                 </div>
 
                 <div className="bg-card p-5 rounded-2xl border border-border shadow-elegant animate-fade-up" style={{ animationDelay: "300ms" }}>
@@ -127,7 +160,7 @@ export default function PersebaranDetail() {
                     </div>
                     <span className="font-body text-sm text-muted-foreground">Tahun Berdiri</span>
                   </div>
-                  <p className="font-body text-foreground">{masjid.tahunBerdiri}</p>
+                  <p className="font-body text-foreground">{masjid.tahun_berdiri || "-"}</p>
                 </div>
               </div>
 
@@ -137,36 +170,38 @@ export default function PersebaranDetail() {
                   Tentang Masjid
                 </h2>
                 <p className="font-body text-muted-foreground leading-relaxed">
-                  {masjid.deskripsi}
+                  {masjid.deskripsi || "Tidak ada deskripsi"}
                 </p>
               </div>
 
               {/* Fasilitas */}
-              <div className="bg-card p-6 rounded-2xl border border-border shadow-elegant animate-fade-up" style={{ animationDelay: "500ms" }}>
-                <h2 className="text-xl font-heading font-bold text-foreground mb-4">
-                  Fasilitas
-                </h2>
-                <div className="flex flex-wrap gap-3">
-                  {masjid.fasilitas.map((fas, idx) => (
-                    <div
-                      key={idx}
-                      className="flex items-center gap-2 px-4 py-2 bg-secondary rounded-full"
-                    >
-                      <CheckCircle className="w-4 h-4 text-primary" />
-                      <span className="font-body text-sm text-foreground">{fas}</span>
-                    </div>
-                  ))}
+              {masjid.fasilitas && masjid.fasilitas.length > 0 && (
+                <div className="bg-card p-6 rounded-2xl border border-border shadow-elegant animate-fade-up" style={{ animationDelay: "500ms" }}>
+                  <h2 className="text-xl font-heading font-bold text-foreground mb-4">
+                    Fasilitas
+                  </h2>
+                  <div className="flex flex-wrap gap-3">
+                    {masjid.fasilitas.map((fas, idx) => (
+                      <div
+                        key={idx}
+                        className="flex items-center gap-2 px-4 py-2 bg-secondary rounded-full"
+                      >
+                        <CheckCircle className="w-4 h-4 text-primary" />
+                        <span className="font-body text-sm text-foreground">{fas}</span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
-              </div>
+              )}
 
               {/* Jadwal Kegiatan */}
-              {masjid.jadwalKegiatan && masjid.jadwalKegiatan.length > 0 && (
+              {masjid.jadwal_kegiatan && masjid.jadwal_kegiatan.length > 0 && (
                 <div className="bg-card p-6 rounded-2xl border border-border shadow-elegant animate-fade-up" style={{ animationDelay: "600ms" }}>
                   <h2 className="text-xl font-heading font-bold text-foreground mb-4">
                     Jadwal Kegiatan
                   </h2>
                   <div className="space-y-3">
-                    {masjid.jadwalKegiatan.map((kegiatan, idx) => (
+                    {masjid.jadwal_kegiatan.map((kegiatan, idx) => (
                       <div
                         key={idx}
                         className="flex items-center justify-between p-4 bg-secondary/50 rounded-xl"
